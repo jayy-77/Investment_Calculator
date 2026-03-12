@@ -10,7 +10,7 @@ const DETAILS = {
 }
 
 function App() {
-  
+     
   const [details, setDetails] = useState(DETAILS)
   const isValid = details.duration >= 1 ;
   console.log(details)
